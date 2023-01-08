@@ -14,14 +14,13 @@
     <section id="contador">
         <div id="tela">
             <h1 id="valor">0</h1>
-            <p>Total: <span id="memoria">00</span></p>
         </div>
         <div id="controle">
             <div id="maisEmenos">
-                <button class="options">+1</button>
-                <button class="options">-1</button>
+                <button class="options" onclick="executando(0)">+1</button>
+                <button class="options" onclick="executando(1)">-1</button>
             </div>
-            <button class="options" id="reset">Reset</button>
+            <button class="options" id="reset" onclick="limpar()">Reset</button>
         </div>
     </section>
 

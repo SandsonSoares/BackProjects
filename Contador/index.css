@@ -39,16 +39,11 @@ body {
 }
 
 #valor {
-    width: 50%;
+    width: 100%;
     text-align: center;
     font-size: 3em;
 }
 
-#tela p {
-    width: 50%;
-    text-align: right;
-    font-weight: 600;
-}
 
 #controle {
     height: 50%;
@@ -73,6 +68,9 @@ body {
     background-color: #5c5c5cce;
     box-shadow: none;
     
+}
+.options:active{
+    transform: rotate(-30deg);
 }
 
 #reset {
