@@ -12,7 +12,7 @@ function executando(condicao){
     }
     else if (condicao == 1 && valorMaleavel > 0){
         numeroDiplay.innerHTML = valorMaleavel -= 1
-        if(valorMaleavel%10 == 0){
+        if(valorMaleavel%10 == 0 && valorMaleavel > 0){
             numeroDiplay.style.color ="red"
         }
         else{
@@ -24,4 +24,5 @@ function limpar(){
     valorMaleavel = 0
     let numeroDiplay = document.getElementById("valor")
     numeroDiplay.innerHTML = valorMaleavel
+    numeroDiplay.style.color ="black"
 }
