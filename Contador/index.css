@@ -86,3 +86,23 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+#credito{
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font: 700;
+}
+#credit a {
+    color: whitesmoke;
+}
+
+#credit a:hover {
+    color: red;
+    font-weight: 700;
+}
+#credit a:active {
+    color: pink;
+    text-decoration: none;
+}
